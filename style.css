@@ -1,0 +1,29 @@
+.modal {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  background-color: white;
+  max-height: calc(100vh - 40px);
+  max-width: calc(100vw - 40px);
+}
+
+.modalCloseBtn {
+  position: absolute;
+  width: 2em;
+  top: 10px;
+  right: 5px;
+}
